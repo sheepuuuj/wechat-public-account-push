@@ -71,6 +71,7 @@ const USER_CONFIG = {
       name: '小弟',
       // 使用微信测试号：自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'oLTRz6BktdWCRA5VZi-KtvHW6ucI',
+      useTemplateId:"XD8p5bqfmZ5oPpJYmzkLwSz4qnTQc5VbJ9rv1hGr9Nc",
     }
   ],
 

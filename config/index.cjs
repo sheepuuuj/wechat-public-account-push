@@ -57,7 +57,7 @@ const USER_CONFIG = {
       id: 'oLTRz6H5iBoG2ULFBdB4RoDIG2GI',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
-      useTemplateId:'XD8p5bqfmZ5oPpJYmzkLwSz4qnTQc5VbJ9rv1hGr9Nc',
+      useTemplateId:'IE_1T6C4A_uosRRTgTpPrh2JbusXcp19oDJayX1bqHQ',
       
     },
   ],

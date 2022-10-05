@@ -12,7 +12,40 @@ const USER_CONFIG = {
 
   // 使用微信测试号：公众号APP_SECRET
   APP_SECRET: '2c13af3043df30e361fbe294ccecdd02',
+  IS_SHOW_COLOR: true,
 
+  // 功能开关,打开：true，关闭：false
+  SWITCH: {
+    /** 每日天气 */
+    weather: true,
+
+    /** 节假日 */
+    // 下一休息日综合提醒
+    holidaytts: true,
+
+    /** 每日N句 */
+    // 金山每日一句
+    CIBA: true,
+    // 每日一言
+    oneTalk: false,
+    // 土味情话(彩虹屁)
+    earthyLoveWords: false,
+    // 朋友圈文案
+    momentCopyrighting: false,
+    // 毒鸡汤
+    poisonChickenSoup: false,
+    // 古诗古文
+    poetry: false,
+
+    /** 星座运势 */
+    horoscope: false,
+
+    /** 生日消息和节日消息 */
+    birthdayMessage: true,
+
+    // 学生课表
+    courseSchedule: false,
+  },
   PROVINCE: '河南',
   CITY: '驻马店',
 
@@ -23,7 +56,6 @@ const USER_CONFIG = {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'oLTRz6H5iBoG2ULFBdB4RoDIG2GI',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: '1',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '12-27',
       
